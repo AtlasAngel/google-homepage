@@ -1,5 +1,5 @@
 
-.HeaderButtons a, .FooterButtons a{
+.bleft, .tleft,.bright, .tright {
 color: rgb(0, 0, 0);
 display: inline-block;
 font-family: arial, sans-serif;
@@ -13,17 +13,71 @@ text-decoration-style: solid;
 }
 
 .Logo {
-    display: outside;
-margin-left: auto;
-margin-right: auto;
-width: 25%;
-}
-
-
-.FooterButtons, .HeaderButtons{
-text-align: center;
-}
-.html{
+    padding: 70px 0;
+    text-align: center;
     display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 150px;
+    padding-bottom: 20px;
 }
-
+.FooterButtons{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    line-height: 40px;
+}
+.bleft, .tleft {
+    text-decoration: none;
+    float: left;
+    padding: 15px;
+    color: #5F6368;
+}
+.bright, .tright {
+    color: #5F6368;
+    text-decoration: none;
+    float: right;
+    padding: 15px;
+}
+.SignIn{
+float: right;
+background-image: -moz-linear-gradient(rgb(67, 135, 253), rgb(70, 131, 234));
+border-bottom-color: rgb(66, 133, 244);
+border-bottom-left-radius: 2px;
+border-bottom-right-radius: 2px;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-image-outset: 0;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(66, 133, 244);
+border-left-style: solid;
+border-left-width: 1px;
+border-right-color: rgb(66, 133, 244);
+border-right-style: solid;
+border-right-width: 1px;
+border-top-color: rgb(66, 133, 244);
+border-top-left-radius: 2px;
+border-top-right-radius: 2px;
+border-top-style: solid;
+border-top-width: 1px;
+color: rgb(255, 255, 255);
+cursor: default;
+font-family: arial, sans-serif;
+font-size: 13px;
+font-weight: 700;
+line-height: 28px;
+outline-color: rgb(255, 255, 255);
+outline-style: none;
+outline-width: 0px;
+padding-bottom: 0px;
+padding-left: 12px;
+padding-right: 12px;
+padding-top: 0px;
+}

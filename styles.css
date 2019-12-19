@@ -80,14 +80,14 @@ text-decoration-style: solid;
 .bleft, .tleft {
     text-decoration: none;
     float: left;
-    padding: 15px;
+    padding: 10px;
     color: #5F6368;
 }
 .bright, .tright {
     color: #5F6368;
     text-decoration: none;
     float: right;
-    padding: 17px;
+    padding: 10px;
     flex-wrap: wrap;
 }
 .SignIn{
